@@ -2,11 +2,11 @@
 .body{
     background:#008080;
     transition: all .5s;
-padding:1px;
-display: flex;
-justify-content: center;
+    padding:1px;
+    display: flex;
+    justify-content: center;
 	align-items: center;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .veen{
@@ -26,7 +26,7 @@ justify-content: center;
 }
 .veen button{
     background: transparent;
-    //background-image: linear-gradient(#008B8B,#008080 ,#008080);
+    /*background-image: linear-gradient(#008B8B,#008080 ,#008080);*/
     display: inline-block;
     padding: 10px 30px;
     border: 3px solid #fff;
@@ -34,7 +34,7 @@ justify-content: center;
     background-clip: padding-box;
     position: relative;
     color: #FFF;
-    //box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    /*box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);*/
     transition: all .25s;
 }
 
@@ -125,3 +125,20 @@ justify-content: center;
 .veen > .wrapper.move input:focus{
     border-color: #e0b722;
 }
+
+@media only screen and (max-width: 600px){
+    #login1738
+    {
+        width:25rem;
+        transform: translateX(-6rem);
+        height: 55vh;
+        transform: translateY(20rem);
+    }
+    .login-btn 
+    {
+        transform: translateY(-12rem);
+    }
+    .rgstr-btn{
+        transform: translateY(-12rem);
+    }
+} 
