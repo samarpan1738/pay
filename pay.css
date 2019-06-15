@@ -142,3 +142,17 @@
         transform: translateY(-12rem);
     }
 } 
+@media only screen and (max-height: 700px){
+    #login1738
+    {
+        height: 55vh;
+        transform: translateY(15rem);
+    }
+    .login-btn 
+    {
+        transform: translateY(-15rem);
+    }
+    .rgstr-btn{
+        transform: translateY(-12rem);
+    }
+}
