@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PAY</title>
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+<link rel="stylesheet" href="/lib/w3-theme-teal.css">
+<script  src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" ></script>
+    <script src="pay.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="pay.css">
+</head>
+<body>
+<div class="body">
+<div class="veen">
+		<div class="login-btn splits">
+			<p>Don`t have a referal code</p>
+			<button>Subscribe</button>
+		</div>
+		<div class="rgstr-btn splits">
+			<p>Have a  referal code</p>
+			<button>Subscribe</button>
+		</div>
+		<div class="wrapper">
+			<div id="login">
+            <form action="refercode.php" method="POST">
+				<h3>Subscripe</h3>
+				<div class="mail">
+					<input type="mail" name="email" placeholder="email">
+					<label>Mail</label>
+				</div>
+				
+				<div class="submit">
+                <input type="submit" name="submit" value="pay">
+                
+				</div>
+                </form>
+			</div>
+			<div id="register">
+            <form action="thankyou.php"method="POST">
+				<h3>Subscribe</h3>
+				
+				<div class="mail">
+					<input type="mail" name="loginemail" placeholder="email">
+					<label>EMail</label>
+				</div>
+				<div class="uid">
+					<input type="text" name="referalcode" placeholder="refer id">
+					<label>Refer Id</label>
+				</div>
+				
+			
+ 
+				<div class="submit">
+                <input type="submit" name="submit" value="pay">
+				</div>
+			</div>
+		</div>
+	</div>	
+	</div>
+    </body>
+    </html>
